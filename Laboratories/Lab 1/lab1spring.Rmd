@@ -1,0 +1,30 @@
+---
+title: "Lab 1"
+author: "Nick Thompson"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Tasks
+
+## Task 1
+
+This is task 1 for lab 1
+
+```{r}
+getwd()
+```
+
+## Task 2
+
+```{r}
+ddt<-read.csv("ddt.csv")
+head(ddt)
+```
