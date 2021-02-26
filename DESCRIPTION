@@ -4,8 +4,8 @@ Title: What the Package Does (Title Case)
 Version: 0.1.0
 Author: Nick Thompson
 Maintainer: Nick Thompson <nicholas.j.thompson-1@ou.edu>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: Contains a function that reads a CSV file
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
