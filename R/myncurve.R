@@ -7,6 +7,8 @@
 #' @param mu Mean
 #' @param sigma Standard deviation
 #' @param a y value to calculate P(Y <= a)
+#'
+#' @export
 
 myncurve = function(mu,sigma,a) {
   #normal curve
